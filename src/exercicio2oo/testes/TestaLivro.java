@@ -1,4 +1,6 @@
-package exercicio1oo.classes;
+package exercicio2oo.testes;
+import exercicio2oo.classes.Livro;
+
 import java.util.Scanner;
 
 public class TestaLivro {
@@ -10,13 +12,13 @@ public class TestaLivro {
         livro.titulo = leitor.nextLine();
 
         System.out.print("Digite o autor do livro: ");
-         livro.autor = leitor.nextLine();
+        livro.autor = leitor.nextLine();
 
         System.out.print("Digite o gênero do livro: ");
-         livro.genero = leitor.nextLine();
+        livro.genero = leitor.nextLine();
 
         System.out.print("O livro está emprestado? (true ou false): ");
-         livro.emprestado = leitor.nextBoolean();
+        livro.emprestado = leitor.nextBoolean();
 
         System.out.println("\n--- Dados do Livro ---");
         System.out.println("Título: " + livro.titulo);

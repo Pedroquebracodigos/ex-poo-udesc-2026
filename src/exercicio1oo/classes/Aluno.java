@@ -1,6 +1,6 @@
 package exercicio1oo.classes;
 
-class Aluno {
+public class Aluno {
     String matricula;
     String nome;
     int idade;
